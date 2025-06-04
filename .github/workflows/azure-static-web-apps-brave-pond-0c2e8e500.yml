@@ -30,7 +30,7 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "Front-end" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "/bin/staticsites/1f757546-93db-452d-b2ac-9db2517c9c3a-swa-oryx/app/github/workspace/Front-end/dist/Front-end" # Built app content directory - optional
+          output_location: "dist/front-end" # Built app content directory - optional
           app_build_command: "npm run build -- --configuration production"
           ###### End of Repository/Build Configurations ######
 
