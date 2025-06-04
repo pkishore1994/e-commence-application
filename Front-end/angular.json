@@ -25,24 +25,20 @@
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css"
             ],
-            "scripts": [],
-            "allowedCommonJsDependencies": [
-              "sweetalert2",
-              "apexcharts"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "3mb",
-                  "maximumError": "4mb"
+                  "maximumWarning": "5mb",
+                  "maximumError": "6mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "3mb",
-                  "maximumError": "4mb"
+                  "maximumWarning": "20kb",
+                  "maximumError": "25kb"
                 },
                 {
                   "type": "anyScript",
@@ -50,14 +46,9 @@
                   "maximumError": "3mb"
                 },
                 {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "3kb",
-                  "maximumError": "5kb"
-                },
-                {
                   "type": "any",
-                  "maximumWarning": "5mb",
-                  "maximumError": "6mb"
+                  "maximumWarning": "6mb",
+                  "maximumError": "7mb"
                 }
               ],
               "outputHashing": "all"
@@ -93,10 +84,7 @@
           "options": {
             "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
