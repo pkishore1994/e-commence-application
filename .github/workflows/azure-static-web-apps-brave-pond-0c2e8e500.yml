@@ -38,7 +38,7 @@ jobs:
           action: "upload"
           app_location: "Front-end"
           api_location: ""
-          output_location: "dist/front-end"
+          output_location: "dist/Front-end"
           app_build_command: "npm run build -- --configuration production"
 
   close_pull_request_job:
