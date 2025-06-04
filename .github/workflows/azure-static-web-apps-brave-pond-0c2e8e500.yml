@@ -38,7 +38,7 @@ jobs:
           action: "upload"
           app_location: "Front-end"
           api_location: ""
-          output_location: "Front-end/dist/Front-end"
+          output_location: "/bin/staticsites/8ee982af-7046-471d-b001-514096058d27-swa-oryx/app/Front-end/dist/front-end"
           app_build_command: "npm run build -- --configuration production"
 
   close_pull_request_job:
