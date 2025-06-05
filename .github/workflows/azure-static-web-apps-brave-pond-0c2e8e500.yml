@@ -39,7 +39,7 @@ jobs:
           app_location: "Front-end"
           api_location: ""
           #skip_app_build: true
-          output_location: "dist/Front-end"
+          output_location: "Front-end/dist/front-end"
           app_build_command: "npm run build -- --configuration production"
 
   close_pull_request_job:
