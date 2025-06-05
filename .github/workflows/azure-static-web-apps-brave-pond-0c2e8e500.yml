@@ -36,10 +36,10 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
-          app_location: "Front-end"
+          app_location: "/github/workspace/Front-end"
           api_location: ""
           #skip_app_build: true
-          output_location: "/bin/staticsites/45406d54-b2a7-43bd-8be7-4e10f5b79772-swa-oryx/app/Front-end/dist/front-end"
+          output_location: "/bin/staticsites/527a050b-1364-4b10-a03b-96920fb362fb-swa-oryx/app"
           app_build_command: "npm run build -- --configuration production"
 
   close_pull_request_job:
