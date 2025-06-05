@@ -39,7 +39,7 @@ jobs:
           app_location: "Front-end"
           api_location: ""
           #skip_app_build: true
-          output_location: "Front-end/dist/front-end"
+          output_location: "/bin/staticsites/45406d54-b2a7-43bd-8be7-4e10f5b79772-swa-oryx/app/Front-end/dist/front-end"
           app_build_command: "npm run build -- --configuration production"
 
   close_pull_request_job:
