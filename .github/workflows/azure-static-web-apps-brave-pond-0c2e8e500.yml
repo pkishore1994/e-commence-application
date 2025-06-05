@@ -39,7 +39,7 @@ jobs:
           app_location: "/github/workspace/Front-end"
           api_location: ""
           #skip_app_build: true
-          output_location: "/bin/staticsites/527a050b-1364-4b10-a03b-96920fb362fb-swa-oryx/app"
+          output_location: "/github/workspace/Front-end/dist/front-end"
           app_build_command: "npm run build -- --configuration production"
 
   close_pull_request_job:
