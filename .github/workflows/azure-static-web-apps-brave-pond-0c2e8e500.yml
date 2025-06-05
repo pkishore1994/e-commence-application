@@ -36,7 +36,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
-          app_location: "Front-end"
+          app_location: "e-commence-application/Front-end"
           api_location: ""
           output_location: "dist/front-end"
           app_build_command: "npm run build -- --configuration production"
